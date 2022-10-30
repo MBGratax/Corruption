@@ -1,0 +1,102 @@
+﻿Changelog
+
+AD = Alexander Drexelius
+JH = Jonas Häfner
+PP = Pair Programming
+
+25.10.2018 PP Opened Google Drive with Concept, Mechanics and Management https://drive.google.com/drive/folders/1Pzbs72gH0_EGIzDyT4uKlqXJdDhc4PS3?usp=sharing/
+03.11.2018 PP Committed Concept Paper
+06.11.2018 JH Changed and filled in the project Readme
+11.11.2018 AD Initiallized Project Corruption
+14.11.2018 AD Made a small level and imported to UE4.20.3
+24.11.2018 PP Added Player Character with two weapons and movement, an enemy + colllectible and updated test level.
+25.11.2018 PP Polishing Core Mechanics
+27.11.2018 JH BP Cleanup, Typo Checking
+09.12.2018 PP Reworked Weapon System, Reworked Bullet System, Added new Enemy Type, Added new collectible Type, Added Weapon Swap Menu, Built larger test level
+11.12.2018 AD Reworked Weapon System, BP Cleanup, Typo Checking
+18.12.2ß18 AD Small balancing for playtesting and added more rooms to play
+03.01.2019 PP Optimized Dash and collision between enemies and player & Bugfixing
+04.01.2019 JH Random Weapon Generation, Increasing Costs, Random Drops, Pickup Indicator
+06.01.2019 JH Started implementing object pooling
+07.01.2019 JH Finished implementing Object Pooling, Crafting Indicator
+08.01.2019 JH Quicksave, Finished Object Pooling, Started Random Weapon Generation
+15.01.2019 PP Implemented Player falling in deathpit behavior, weapons now point at crosshair
+15.01.2019 PP Ressources get pulled to the player when nearby
+15.01.2019 AD Added Healing Ressource and Healing Function
+22.01.2019 JH Information Ressource, Ressource base, Ressorces now array
+24.01.2019 JH Implemented Object Pooling for enemies, added shield to player
+25.01.2019 AD Fixed Collectible Pickup Bug, Added Look Around Feature
+26.01.2019 JH UI Work
+26.01.2019 AD Added Overheating Mechanic
+27.01.2019 AD Added Healthbar & Shield Visuals, added circular Progress Bars
+01.02.2019 JH More work on enemy AI
+02.02.2019 AD Filled first rooms with assets, Ressource & Weapon UI, Presentation Level
+30.04.2019 AD Created 1st working Prototype for a randomly generated layout with seed
+01.05.2019 AD LevelGenerator now spawns multiple 3x3 rooms in the level, added boss room
+02.05.2019 AD bug fixing and preparation to implement corridors
+06.05.2019 PP Added Save Game
+07.05.2019 AD Hallways now get spawned correctly
+11.05.2019 JH Reandom Weapon Generation out of parts
+13.05.2019 AD Dead End Removal now works
+14.05.2019 AD Level Generator now works properly
+19.05.2019 JH Finished Weapon base, weapons are now correctly generated. Starting to add parts
+30.05.2019 JH Added Event Dispatcher
+01.06.2019 PP Resolved Merge Conficts
+02.06.2019 AD Added Boss Trigger and ItemCard
+03.06.2019 AD Updated Health Bar to show lost HP
+04.06.2019 JH Controller Support
+05.06.2019 AD Finalized Level Generator
+07.06.2019 AD Added Player Model as 3D Canvas
+08.06.2019 AD Imported Assets for room building
+09.06.2019 AD Added Powerup Statue, level design work
+10.06.2019 AD More level design work
+11.06.2019 JH level generation work
+11.06.2019 AD UI improvements
+12.06.2019 JH Added different firetypes
+16.06.2019 AD Created spawner for enemies and added them to every room
+17.06.2019 AD worked on save load system
+18.06.2019 JH Made Savestruct for player
+22.06.2019 JH Made Savestruct for level
+26.06.2019 AD Level Generator for level 2
+28.06.2019 AD Fixed NavMesh Bug
+30.06.2019 JH Bugfixing
+05.07.2019 JH Added Shotguns and Explosives
+08.07.2019 AD Updated Main menu
+09.07.2019 AD Worked on prerun zome/tutorial
+10.07.2019 AD Added Popup text boxes
+14.07.2019 AD Filled level with enemies and rubble
+15.07.2019 PP Fixed weapon and level gen bugs
+16.07.2019 AD Added camera shake to simulate weapon recoil
+20.07.2019 JH Fixed Savegame, Added effects to weapon bodies
+20.07.2019 AD Created level 3
+21.07.2019 JH Savegame Work
+21.07.2019 AD Added pause menu
+22.07.2019 AD Added enemy models
+23.07.2019 JH Added Boss 2 and exploding enemy
+23.07.2019 AD Added sounds to player taking damage, player low life and music
+24.07.2019 AD Boss UI now updates the boss name
+24.07.2019 JH Updated menus for controler
+25.07.2019 AD Finished animations and sounds
+26.07.2019 PP Finalized Game
+
+Responsibilities
+
+Alexander Drexlius
+	Player Controller/Movement (Walking, Shooting, Dash, Heal, ...)
+	UIs (Menues, Crafting, Powerup, Pickup, ItemCard, ...)
+	Level Design, Prerun Zone/Tutorial
+	Level Generation
+	Sounds
+	Animations
+
+Jonas Häfner
+	Enemy AI
+	Weapon Generation
+	Weapon Crafting
+	Pickup Items
+	Controller Support
+
+Shared
+	Ressources
+	Savegame
+	Powerups
